@@ -1,0 +1,46 @@
+﻿==========================================================================================
+  CIS v2 DATABASE ù CRIMINAL REGISTRY
+==========================================================================================
+
+  Total suspects: 10
+
+  ID   Name                   Alias          DOB          Gender  Height  Weight  Risk     Crime Type             Status
+  ----------------------------------------------------------------------------------------
+  9    Andre Beaumont         Nightfall      1983-08-11   Male    188.0cm 90.0kg  HIGH     Assault                At Large
+  7    Carlos Mendez          El Toro        1978-12-17   Male    175.0cm 82.0kg  HIGH     Organized Crime        At Large
+  2    Daria Volkov           Ice Queen      1992-11-03   Female  168.0cm 62.0kg  HIGH     Cybercrime             At Large
+  5    Devon Whitmore         Wraith         1980-09-08   Male    182.0cm 79.0kg  HIGH     Money Laundering       At Large
+  3    Kai Delacroix          Shadow         1985-07-22   Male    178.0cm 75.0kg  HIGH     Drug Trafficking       At Large
+  10   Leila Farooqi          Cipher         1993-05-19   Female  165.0cm 57.0kg  HIGH     Terrorism              At Large
+  1    Marcus Reinel          The Ghost      1988-04-12   Male    185.0cm 88.0kg  HIGH     Armed Robbery          At Large
+  4    Priya Nambiar          Phantom        1995-02-14   Female  162.0cm 55.0kg  MEDIUM   Identity Theft         At Large
+  8    Yuki Tanaka            Byte           1997-03-25   Female  160.0cm 50.0kg  MEDIUM   Fraud                  At Large
+  6    Zara El-Hassan         Mirage         1990-06-30   Female  170.0cm 60.0kg  MEDIUM   Smuggling              At Large
+
+==========================================================================================
+  FACE BIOMETRICS (stored per suspect)
+==========================================================================================
+
+  ID    Criminal ID  Name                   Eye Dist   Face Ratio   Brightness
+  ----------------------------------------------------------------------
+  1     1            Marcus Reinel          0.355      0.842        117.9
+  2     2            Daria Volkov           0.382      0.713        126.5
+  3     3            Kai Delacroix          0.372      0.742        95.3
+  4     4            Priya Nambiar          0.338      0.711        135.1
+  5     5            Devon Whitmore         0.283      0.772        108.5
+  6     6            Zara El-Hassan         0.419      0.774        124.0
+  7     7            Carlos Mendez          0.354      0.811        143.9
+  8     8            Yuki Tanaka            0.391      0.691        122.9
+  9     9            Andre Beaumont         0.32       0.703        170.9
+  10    10           Leila Farooqi          0.351      0.724        110.0
+
+==========================================================================================
+  DETECTION EVENTS LOG
+==========================================================================================
+
+  ID    Timestamp            Suspect              Mode     Face    Gait    Behav   Fusion   Verdict
+  ----------------------------------------------------------------------------------------
+  2     2026-03-21T10:57     Carlos Mendez        image    34%   57%   39%   42%    CLEAR
+  1     2026-03-21T10:56     Unknown              webcam   0%   0%   0%   0%    CLEAR
+
+==========================================================================================

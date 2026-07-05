@@ -1,0 +1,13 @@
+# CIS v2 - Criminal Identification System v2
+# Core requirements (no deep-learning frameworks required for basic operation)
+
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
+
+# Optional: Enable gait analysis with MediaPipe Pose
+# Uncomment the line below if you want full gait analysis:
+# mediapipe>=0.10.0
+
+# Note: DeepFace / torch are NOT required.
+# CIS v2 uses OpenCV + cosine similarity against a local SQLite DB.
