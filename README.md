@@ -297,4 +297,4 @@ criminal_identification_system_v2/
 
 ---
 
-*CIS v2 — BioFuse Team | IGNISIA Competition*
+*CIS v2 — RunTimeTerror Team*
