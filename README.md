@@ -1,6 +1,6 @@
 # Criminal Identification System v2 
 
-> **Team BioFuse | IGNISIA | AI for Public Safety**
+> **Team RunTimeTerror | IGNISIA | AI for Public Safety**
 > Last updated: March 2026
 
 ---
